@@ -23,6 +23,10 @@
     --fw-bold: 700;
 }
 .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 .card {
@@ -30,14 +34,26 @@
     display: flex;
     max-width: 1000px;
     margin:auto;
-    place-items: center;
+    justify-content: center;
+    align-items: center;
+
+    /* magic centered */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .car {
-    padding: 5rem;
+    padding: 3rem;
     text-align: left;
     color: var(--clr-text);
     font-family: var(--ff-primary);
     font-weight: var(--fw-reg);
+}
+
+.car h1 {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-bold);
 }
 
 .btn {
