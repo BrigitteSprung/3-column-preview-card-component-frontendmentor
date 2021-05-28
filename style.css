@@ -98,3 +98,19 @@
 .luxury .btn{
     color: var(--clr-luxury);
 }
+
+.sedan .btn:hover{
+    background-color: var(--clr-sedan);
+    color: var(--clr-button);
+    border: 3px solid var(--clr-button);
+}
+.suv .btn:hover{
+    background-color: var(--clr-suv);
+    color: var(--clr-button);
+    border: 3px solid var(--clr-button);
+}
+.luxury .btn:hover{
+    background-color: var(--clr-luxury);
+    color: var(--clr-button);
+    border: 3px solid var(--clr-button);
+}
