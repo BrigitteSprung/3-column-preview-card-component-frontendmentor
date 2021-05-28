@@ -35,6 +35,13 @@
 .car {
     padding: 5rem;
     text-align: left;
+    color: var(--clr-text);
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-reg);
+}
+
+.btn {
+
 }
 
 .sedan {
