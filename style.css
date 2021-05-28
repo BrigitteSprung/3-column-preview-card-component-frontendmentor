@@ -14,7 +14,8 @@
     --clr-suv: hsl(184, 100%, 22%);
     --clr-luxury:  hsl(179, 100%, 13%);
    
-    --clr-text: hsl(0, 0%, 100%);
+    --clr-text: hsla(0, 0%, 100%, 0.75);
+    --clr-button:  hsl(0, 0%, 95%);
    
     font-size: 15px;
     --fs-heading: 40px;
@@ -23,6 +24,7 @@
     --fw-bold: 700;
 }
 .body {
+    background-color: var(--clr-button);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,18 +54,21 @@
 }
 
 .car h1 {
+    color: var(--clr-button);
     font-family: var(--ff-secondary);
     font-weight: var(--fw-bold);
 }
 
 .car p {
+    color: var(--clr-text);
     font-family: var(--ff-primary);
     font-size: 1rem;
     font-weight: var(--fw-reg);
+    
 }
 
 .btn {
-
+    
 }
 
 .sedan {
