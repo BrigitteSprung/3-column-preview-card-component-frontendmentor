@@ -50,13 +50,15 @@
     height: auto;
     padding: 3rem;
     text-align: left;
-    width: 33.33%;
+    width: 33.3333%;
 }
 
 .car h1 {
     color: var(--clr-button);
     font-family: var(--ff-secondary);
+    font-size: 2.5rem;
     font-weight: var(--fw-bold);
+    text-transform: uppercase;
 }
 
 .car p {
@@ -64,24 +66,26 @@
     font-family: var(--ff-primary);
     font-size: 1rem;
     font-weight: var(--fw-reg);
-    padding-bottom: 1rem;
+    padding-bottom: 5rem;
 }
 
 .sedan {
     background-color: var(--clr-sedan);
+    border-radius: 15px 0 0 15px;
 }
 .suv {
     background-color: var(--clr-suv);
 }
 .luxury {
     background-color: var(--clr-luxury);
+    border-radius: 0 15px 15px 0;
 }
 
 .btn {
     background-color: var(--clr-button);
     border-radius: 30px;
     font-family: var(--ff-primary);
-    padding: 0.6rem 1.1rem 0.6rem 1.1rem;
+    padding: 0.8rem 1.3rem 0.8rem 1.3rem;
     text-decoration: none;
 }
 
