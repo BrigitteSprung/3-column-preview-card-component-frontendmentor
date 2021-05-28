@@ -16,7 +16,7 @@
    
     --clr-text: hsl(0, 0%, 100%);
    
-    --fs-copy: 15px;
+    font-size: 15px;
     --fs-heading: 40px;
    
     --fw-reg: 400;
@@ -44,16 +44,22 @@
     transform: translate(-50%, -50%);
 }
 .car {
+    color: var(--clr-text);
+    height: auto;
     padding: 3rem;
     text-align: left;
-    color: var(--clr-text);
-    font-family: var(--ff-primary);
-    font-weight: var(--fw-reg);
+    width: 33.33%;
 }
 
 .car h1 {
     font-family: var(--ff-secondary);
     font-weight: var(--fw-bold);
+}
+
+.car p {
+    font-family: var(--ff-primary);
+    font-size: 1rem;
+    font-weight: var(--fw-reg);
 }
 
 .btn {
