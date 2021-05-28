@@ -34,6 +34,7 @@
 .card {
     border-radius: 15px;
     display: flex;
+    flex-wrap: wrap;
     max-width: 1000px;
     min-width: 70%;
     margin:auto;
@@ -116,4 +117,50 @@
     background-color: var(--clr-luxury);
     color: var(--clr-button);
     border: 3px solid var(--clr-button);
+}
+ @media (max-width: 950px) {
+     .car {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 4rem;      
+     }
+     
+ }
+
+ @media (max-width: 780px) {
+    .car {
+       padding-top: 1rem;
+       padding-left: 1rem;
+       padding-right: 1rem;
+       padding-bottom: 3rem;      
+    }
+    .car p {
+        margin-bottom: 1rem;
+    }
+    
+}
+@media (max-width: 600px) {
+    .card {
+        /* flex-direction: column; */
+    }
+    .car {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 4rem;    
+        width: 100%;
+    }
+    .luxury {
+        border-radius: 0 0 15px 15px;
+    }
+    .sedan {
+       border-radius: 15px 15px 0 0; 
+    }   
+    
+}
+
+.attribute {
+    position: absolute;
+    bottom: 10px;
 }
