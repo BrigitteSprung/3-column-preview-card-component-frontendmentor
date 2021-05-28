@@ -4,6 +4,7 @@
 *::after,
 *::before {
     box-sizing: border-box;
+   
 }
 
 :root {
@@ -21,4 +22,11 @@
    
     --fw-reg: 400;
     --fw-bold: 700;
+}
+
+.card {
+    border-radius: 15px;
+    display: flex;
+    max-width: 1000px;
+    margin:auto;
 }
