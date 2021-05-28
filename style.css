@@ -67,10 +67,6 @@
     
 }
 
-.btn {
-    
-}
-
 .sedan {
     background-color: var(--clr-sedan);
 }
@@ -79,4 +75,18 @@
 }
 .luxury {
     background-color: var(--clr-luxury);
+}
+
+.btn {
+    background-color: var(--clr-button);
+}
+
+.sedan .btn{
+    color: var(--clr-sedan);
+}
+.suv .btn{
+    color: var(--clr-suv);
+}
+.luxury .btn{
+    color: var(--clr-luxury);
 }
