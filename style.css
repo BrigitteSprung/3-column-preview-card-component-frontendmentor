@@ -3,8 +3,7 @@
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
-   
+    box-sizing: border-box;   
 }
 
 :root {
@@ -23,14 +22,27 @@
     --fw-reg: 400;
     --fw-bold: 700;
 }
-
+.body {
+    
+}
 .card {
     border-radius: 15px;
     display: flex;
     max-width: 1000px;
     margin:auto;
+    place-items: center;
 }
 .car {
     padding: 5rem;
     text-align: left;
+}
+
+.sedan {
+    background-color: var(--clr-sedan);
+}
+.suv {
+    background-color: var(--clr-suv);
+}
+.luxury {
+    background-color: var(--clr-luxury);
 }
