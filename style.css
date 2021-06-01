@@ -35,7 +35,7 @@
     border-radius: 15px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 1000px;
+    max-width: 80%;
     min-width: 70%;
     margin:auto;
     justify-content: center;
